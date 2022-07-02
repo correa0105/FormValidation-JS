@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+
+    <title>Validacao de Formulário</title>
+</head>
+<body>
+    <div class="form">
+        <h1>Formulário de Cadastro</h1>
+        <form action="/" method="POST" class="form-registration">
+            <div class="form-group name">
+                <label for="">Nome</label>
+                <input type="text" name="" id="" class="validation">
+            </div>
+            <div class="form-group lastname">
+                <label for="">Sobrenome</label>
+                <input type="text" name="" id="" class="validation">
+            </div>
+            <div class="form-group cpf">
+                <label for="">CPF</label>
+                <input type="text" name="" id="" class="validation cpf">
+            </div>
+            <div class="form-group usuario">
+                <label for="">Usuario</label>
+                <input type="text" name="" id="" class="validation user">
+                <p class="legend">Usuario deve conter entre 6 e 12 caracteres</p>
+            </div>
+            <div class="form-group password">
+                <label for="">Senha</label>
+                <input type="password" name="" id="" class="validation passwordValidation">
+                <p class="legend">A senha deve conter entre 6 e 18 caracteres</p>
+            </div>
+            <div class="form-group repeatpassword">
+                <label for="">Repita Senha</label>
+                <input type="password" name="" id="" class="validation repeat-passwordValidation">
+            </div>
+            <button class="submitButton">Enviar</button>
+        </form>
+    </div>
+    <script src="assets/js/cpfValidation.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

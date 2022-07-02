@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(70,252,225,1) 100%);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    background: rgba(138, 44, 226, 0.24);
+    border: 0.2rem solid black;
+    border-radius: 1rem;
+}
+
+h1 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.form-group {
+    margin-top: 0.7rem;
+}
+
+.form-group label {
+    font-size: 1rem;
+    color: #FFFF;
+}
+
+.form-group input {
+    padding: 0.2rem;
+    font-size: 0.5rem;
+    width: 100%;
+    height: 2rem;
+}
+
+button {
+    margin-top: 2rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    background: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: rgba(138, 44, 226, 0.24);;
+}
+
+.error-text {
+    color: rgb(143, 8, 8);
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.legend {
+    margin-top: 0.2rem;
+    display: flex;
+    flex-flow: column;
+    font-size: 0.7rem;
+
+}
