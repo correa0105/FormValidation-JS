@@ -6,6 +6,8 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/correa0105/FormValidation-JS?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/correa0105/FormValidation-JS?style=for-the-badge)
 
+<img src="./assets/exemplo.jpg" alt="Exemplo do Projeto">
+
 # ☕ Descrição do Projeto
 
 Formulário com validação utilizando JavaScript. Foi feito com o objetivo de aprendizado.
